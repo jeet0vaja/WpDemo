@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Keep only wp-content
+!wp-content/
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+!wp-content/mu-plugins/
+
+# Ignore uploads & cache
+wp-content/uploads/
+wp-content/cache/
+
+# Ignore vendor & node modules
+node_modules/
+vendor/
+
+# Ignore OS & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
